@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+body {
+    width: 100%;
+    background: rgb(63, 94, 251);
+    background: -moz-radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(0, 0, 0, 1) 51%, rgba(252, 70, 107, 1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(0, 0, 0, 1) 51%, rgba(252, 70, 107, 1) 100%);
+    background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(0, 0, 0, 1) 100%, rgba(252, 70, 107, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3f5efb", endColorstr="#fc466b", GradientType=1);
+}
+
+.mainbox {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+img {
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    margin: auto;
+}
+
+h2 {
+    color: white;
+    font-size: 120px;
+}
+
+h3 {
+    font-style: normal;
+    color: white;
+    font-size: 25px;
+}
+
+.inputs {
+
+    color: #191919;
+    font-size: larger;
+    padding-left: 8px;
+    margin-top: 15px;
+    height: 40px;
+    width: 200px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+button {
+    background-color: white;
+    font-size: 22px;
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 30px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 2px -5px #191919;
+}
+
+button:hover {
+    background-color: #191919;
+    color: white;
+    opacity: 0.8;
+    transition: 0.4s;
+}
+
+button:active {
+    transition: 0.1s;
+    background-color: yellow;
+    color: #191919;
+}
+@media screen and (max-width: 500px){
+    *{
+        margin: 14px;
+    }
+    body {
+        width: 95%;
+        background: rgb(63, 94, 251);
+        background: -moz-radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(0, 0, 0, 1) 51%, rgba(252, 70, 107, 1) 100%);
+        background: -webkit-radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(0, 0, 0, 1) 51%, rgba(252, 70, 107, 1) 100%);
+        background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(0, 0, 0, 1) 100%, rgba(252, 70, 107, 1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3f5efb", endColorstr="#fc466b", GradientType=1);
+    }
+
+    .mainbox {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+
+        }
+
+    h2 {
+        display: flex;
+        margin: 1px 70px;
+        color: white;
+        font-size: 60px;
+    }
+    h3 {
+        display: flex;
+        margin: 10px  0 35px;
+        color: white;
+        font-size: 19px;
+        }
+    
+    img {
+        max-width: 200px;
+        display: flex;
+        justify-content: center;
+        margin: 45px auto;
+        }
+}     
